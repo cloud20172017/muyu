@@ -38,7 +38,7 @@ public class StudentServiceImpl implements StudentService{
 			resultVo.setResult(list);
 		}else {
 			resultVo.setSuccess(false);
-			resultVo.setMessage("没有找到相关信息");
+			resultVo.setMessage("没有找到相关信息,你知道吗？");
 		}
 		return resultVo;
 	}
